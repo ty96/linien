@@ -1,6 +1,6 @@
 !function () {
   var box = document.getElementsByClassName('countDown')[0];
-  box.style.marginTop = window.innerHeight / 2 - 80 + 'px';
+  box.style.marginTop = window.innerHeight / 2 - 72 + 'px';
 
   var
     day = document.getElementsByClassName('day')[0],
