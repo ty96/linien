@@ -1,4 +1,4 @@
-!function () {
+;(function () {
   var box = document.getElementsByClassName('countDown')[0];
   box.style.marginTop = window.innerHeight / 2 - 72 + 'px';
 
@@ -29,4 +29,9 @@
   timer();
   setInterval(timer, 1000)
 
-}();
+})()
+
+;(function () {
+  var UA  = document.getElementById('UA')
+  UA.innerText = navigator.userAgent
+})()
