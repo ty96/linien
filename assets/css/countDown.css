@@ -9,7 +9,7 @@ body {
 }
 
 .countDown {
-  margin: auto;
+  margin: 50px auto;
   text-align: center;
 }
 
@@ -17,12 +17,12 @@ body {
   width: 160px;
   display: inline-block;
   color: #357ca0;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .unit {
-  font-size: 20px;
+  font-size: 14px;
   color: #cccccc;
 }
 
@@ -53,4 +53,30 @@ body {
 .UA {
   color: #cccccc;
   margin: 20px;
+}
+
+.buy {
+  width: 560px;
+  margin: auto;
+}
+
+.buy h1 {
+  color: #357ca0;
+  font-size: 28px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.time {
+  color: #666;
+}
+
+.device {
+  color: #357ca0;
+  width: 80px;
+  display: inline-block;
+}
+
+.reason {
+  color: darkcyan;
 }
